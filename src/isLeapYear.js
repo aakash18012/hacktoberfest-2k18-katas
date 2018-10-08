@@ -1,3 +1,6 @@
 export const isLeapYear = (year) => {
-  // TO IMPLEMENT IN ANOTHER PR
+  
+  let isLeapYear = (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+  return isLeapYear;
+
 };
